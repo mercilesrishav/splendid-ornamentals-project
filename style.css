@@ -9,13 +9,13 @@
 }
 /* .imglogo{
     width: 150;
-    height: 150;
+    height: 150;              
 } */
 
 :root{
-    --main-color:#ff702a;
-    --text-color:hsl(239, 97%, 70%);
-    --bg-color:#c6c1e1;
+    --main-color:#3f2aff;
+    --text-color:hsl(240, 9%, 4%);
+    --bg-color:hsl(250, 25%, 95%);
     --big-font:5rem;
     --h2-font:2.25rem;
     --p-font:0.9rem;
@@ -190,6 +190,21 @@ section{
    grid-template-columns: repeat(auto-fit, minmax(240px,auto));
    grid-gap:1.5rem;
    margin-top: 4rem;;
+}
+
+.shipping h1{
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.infrastructure h1{
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+.contacth1{
+    color: var(--main-color);
+    font-weight: 800;
 }
 
 .s-box{
